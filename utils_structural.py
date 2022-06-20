@@ -43,7 +43,7 @@ def compute_structural_infot(dataset_str, directed, dijkstra_k, in_out_ratio, re
     graph_type = 'undirected'
     max_iters = 100
     epsilon = 1e-6
-    input_graph = os.path.join('data', dataset_str, 'out1_graph_edges_rwr.txt')
+    input_graph = os.path.join('data', dataset_str, 'out1_graph_edges.txt')
     ri_all = []
     for seed in range(len(dijkstra)):
         rwr = RWR()
